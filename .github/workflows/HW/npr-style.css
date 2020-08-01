@@ -1,0 +1,63 @@
+body{
+    font-family: 'PT Sans', sans-serif; 
+    margin: 0;
+}
+
+a:link, a:visited{
+    color: #4a4a4a;
+    text-decoration: none;
+}
+
+.container{
+    width: 860px;
+    margin: 5px 10px 0px;
+}
+
+#header{
+    display: flex;
+}
+
+#logo{
+    width: 150px;
+    margin: 20px 20px;
+}
+
+
+#global{
+    flex-grow: 1;
+    text-align: right;
+}
+
+#global ul{
+    list-style: none;
+}
+
+#global ul li{
+    display: inline;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+#global a:hover{
+    color: #b3b3b3;
+}
+
+#navigation{
+    background-color: #4a4a4a;
+    padding: 5px 0;
+}
+
+#navigation li a:link, #navigation ul li a:visited{
+    color: #ffffff;
+}
+
+#navigation ul{
+    list-style: none;
+}
+
+#navigation ul li{
+    display: inline;
+    font-family: 'PT Sans', sans-serif; 
+    text-transform: uppercase;
+    padding-right: 10px;
+}
