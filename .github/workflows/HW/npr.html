@@ -3,33 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NPR News</title>
+    <title>NPR Website</title>
     <link rel="stylesheet" href="css/npr-style.css">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <div id="header">
-            <div id="logo">
-                <img src="images/npr-logo.svg" alt="npr-logo">
+        <div id="header" class="flex">
+            <div class="main-column flex" >
+                <div id="logo">
+                    <img src="https://media.npr.org/chrome_svg/npr-logo.svg" alt="NPR logo">
+                </div>
+                <div id="global">
+                    <ul>
+                        <li><a href="#">Sign In</a></li>
+                        <li><a href="#">NPR Shop</a></li>
+                        <li class="red-button"><a href="#">Donate Now</a></li>
+                    </ul>
+                </div>
             </div>
-            <div id="global">
-                <ul>
-                    <li><a href="#">Sign In</a></li>
-                    <li><a href="#">NPR Shop</a></li>
-                    <li><a href="#">Donate Now</a></li>
-                </ul>
+            <div class="side-column">
+
             </div>
+            
         </div>
     </div>
     <div id="navigation">
-        <ul>
-            <li><a href="#">news</a></li>
-            <li><a href="#">arts & life</a></li>
-            <li><a href="#">music</a></li>
-            <li><a href="#">shows & podcast</a></li>
-            <li><a href="#">search</a></li>
-        </ul>
+        <div class="container">
+            <ul>
+                <li><a href="#">news</a></li>
+                <li><a href="#">arts & life</a></li>
+                <li><a href="#">music</a></li>
+                <li><a href="#">shows &  podcast</a></li>
+                <li><a href="#">search</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <div id="content" class="container flex">
+        <div id="main-content">
+            <div class="main-column" id="featured">
+                <div class="flex content-box">
+                    <div class="content-body">
+                        <h5>INVESTIGATIONS</h5>
+                        <h2>One Man's COVID-19 Death Raises The Worst Fears Of Many People With Disabilities</h2>
+                        <p>The hospital said it made a humane decision to end treatment. Michael Hickson's widow says doctors ended his care because they underestimated the life of a man with significant disabilities.</p>
+                    </div>
+                    <div class="content-img">
+                        <img src="https://media.npr.org/assets/img/2020/07/31/mh-img_0531_wide-23fb7c2816775ba86bab7182e9f84b97c44d912b-s900-c85.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="featured-news" class="flex">
+                <div class="card">
+                    <img src="https://media.npr.org/assets/img/2020/08/07/ap_20220401814146_wide-8b13756b7edd2e9b6738e4abac0bc59e26520605-s700-c85.jpg" alt="">
+                    <div class="card-body">
+                        <p class="box-label">POLITICS</p>
+                    <h4>'We're Risking Our Lives': Front-Line Federal Workers Sue For Hazard Pay</h4>
+                    </div>
+                    
+                </div>
+                <div class="card">
+                    <img src="https://media.npr.org/assets/img/2020/08/07/gettyimages-12106229931_wide-56ba56721e1c98212adffc33bc7c7720dcbf2d9d-s700-c85.jpg" alt="">
+                    <div class="card-body">
+                        <p class="box-label">POLITICS</p>
+                    <h4>'We're Risking Our Lives': Front-Line Federal Workers Sue For Hazard Pay</h4>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://media.npr.org/assets/img/2020/08/07/ap_20213515254701_wide-d89da39f6a9ddd1875bc02f61823b40c0ca4db0c-s700-c85.jpg" alt="">
+                    <div class="card-body">
+                        <p class="box-label">POLITICS</p>
+                    <h4>'We're Risking Our Lives': Front-Line Federal Workers Sue For Hazard Pay</h4>
+                    </div>
+                </div>
+            </div>
+            <div id="station-finder" class="shadow">
+                <h3>Pick your NPR station</h3>
+                <p>Looking for your favorite local station's stories or live stream?</p>
+                <a href="#">STATION FINDER</a>
+            </div>
+            <div class="main-column">
+                <div class="flex content-box">
+                    <div class="content-body">
+                        <h5>INVESTIGATIONS</h5>
+                        <h2>One Man's COVID-19 Death Raises The Worst Fears Of Many People With Disabilities</h2>
+                        <p>The hospital said it made a humane decision to end treatment. Michael Hickson's widow says doctors ended his care because they underestimated the life of a man with significant disabilities.</p>
+                    </div>
+                    <div class="content-img">
+                        <img src="https://media.npr.org/assets/img/2020/07/31/mh-img_0531_wide-23fb7c2816775ba86bab7182e9f84b97c44d912b-s900-c85.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="side-column" id="side" >
+            <img src="https://tpc.googlesyndication.com/simgad/11455247543227463674" alt="">
+        </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="more-from-npr" class="flex">
+            <h2>more from</h2>
+            <ul>
+                <li class="blue-button"><a href="#">news</a></li>
+                <li class="blue-button"<a href="#">arts & life</a></li>
+                <li class="blue-button"><a href="#">music</a></li>
+            </ul>
+        </div>
+        <div id="extras" class="main-column content-box">
+            <div class="extras-column-1">
+                <h5>Read & Listen</h5>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Arts & Life</a></li>
+                    <li><a href="#">Music</a></li>
+                    <li><a href="#">Podcasts</a></li>
+                    <li><a href="#">Programs</a></li>
+                </ul>
+            </div>  
+            <div class="extras-column">
+                <h5>Connect</h5>
+                <ul>
+                    <li><a href="#">Newsletters</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+            <div class="extras-column">
+                <h5>About NPR</h5>
+                <ul>
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Finances</a></li>
+                    <li><a href="#">People</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Public Editor</a></li>
+                    <li><a href="#">Corrections</a></li>
+                </ul>
+            </div>   
+            <div class="extras-column">
+                <h5>Get Involved</h5>
+                <ul>
+                    <li><a href="#">Support Public Radio</a></li>
+                    <li><a href="#">Sponsor NPR</a></li>
+                    <li><a href="#">NPR Careers</a></li>
+                    <li><a href="#">NPR Shop</a></li>
+                    <li><a href="#">NPR Events</a></li>
+                    <li><a href="#">Visit NPR</a></li>
+                </ul>
+            </div>                              
+        </div>
+        <div id="final">
+            <ul>
+                <li><a href="#">terms of use</a></li>
+                <li><a href="#">privacy</a></li>
+                <li><a href="#">your privacy choices</a></li>
+                <li><a href="#">text only</a></li>
+                <li>© 2020 npr</li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
